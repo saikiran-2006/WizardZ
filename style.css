@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 30px 100px;
+}
+
+#nav #part1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav #part1 img {
+    rotate: 45deg;
+    height: 35px;
+}
+
+#nav #part2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav #part2 h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#nav #part2 button {
+    background-color: transparent;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: black;
+}
+
+#content1 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    overflow-x: hidden;
+}
+
+#left {
+    width: 50%;
+}
+
+#text1 {
+    width: 50%;
+    line-height: 50px;
+}
+
+#text2 {
+    width: 100%;
+    line-height: 30px;
+}
+
+#content1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#content1 button {
+    margin-top: 30px;
+    border: solid 2px black;
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    color: black;
+}
+
+#rightimage {
+    margin-top: 20px;
+}
+
+#company {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+#company img {
+    width: 120px;
+}
+
+#services {
+    display: flex;
+    margin-top: 100px;
+    padding: 30px 100px;
+    align-items: center;
+    gap: 50px;
+}
+
+#lefttext {
+    background-color: lawngreen;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
+#righttext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+#elements {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.elem {
+    width: 600px;
+    height: 350px;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 20px;
+    flex-shrink: 0;
+    box-shadow: 0px 20px 10px black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#elem1 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#elem2 {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#elemimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.elem h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+#elem1 h2 {
+    background-color: lawngreen;
+    padding: 10px 10px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+#elem2 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+#elem2 h3 i {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 600;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 20px 10px black;
+}
+
+#black .eleml #elem1 h2 {
+    background-color: white;
+    color: black;
+}
